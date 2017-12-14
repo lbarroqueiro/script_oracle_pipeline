@@ -1,0 +1,22 @@
+fazer alteração no type create or replace TYPE OrderOptionInfoObj AS OBJECT (master_order_no number(12),
+                                                     option_id varchar2(25),
+                                                     item_desc VARCHAR2(250),
+                                                     buyrarchy varchar2(126),
+                                                     product_hierarchy varchar2(126),
+                                                     asos_colour VARCHAR2(10),
+                                                     unit_cost number(20,4),
+                                                     qty_ordered number(12,4),
+                                                     seq_no  number,
+                                                     factory varchar2(10),
+                                                     manu_country_id varchar2(3),
+                                                     size_group  varchar2(10),
+                                                     supplier_reference  varchar2(30),
+                                                     supplier_colour varchar2(120),
+                                                     packing_method  varchar2(6),
+                                                     factory_risk_rating varchar2(250),
+                                                     create_id varchar2(30),
+                                                     create_datetime date,
+                                                     last_update_id  varchar2(30),
+                                                     last_update_datetime  date)
+												
+													 para incluir mais as novas colunas 
